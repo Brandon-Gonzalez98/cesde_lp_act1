@@ -37,14 +37,30 @@ public class ArreglosUnidimensionales {
 
     public static void recorrerConForClasico() {
         // TODO
+          int[] arregloOriginal = {1, 2, 3, 4, 5};
+
+        int[] arregloInvertido = invertirArray(arregloOriginal);
+
+        System.out.println("\nArreglo invertido:");
+
+        for (int numero : arregloInvertido) {
+            System.out.print(numero + " ");
+        }
     }
 
-    public static void recorrerConForEach() {
-        // TODO
-    }
 
-    public static int[] arrayComoParametroYRetorno(int[] array) {
-        // TODO
-        return array;
+    // Método que invierte un arreglo
+    public static int[] invertirArray(int[] array) {
+
+        int[] invertido = new int[array.length];
+
+        int indice = 0;
+
+        for (int i = array.length - 1; i >= 0; i--) {
+            invertido[indice] = array[i];
+            indice++;
+        }
+
+        return invertido;
     }
 }
