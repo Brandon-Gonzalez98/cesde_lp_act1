@@ -16,5 +16,7 @@ public class VariablesYConstantes {
 
     public static void demostrarConstantes() {
         // TODO
+        final double PI= 3.1416;
+
     }
 }
