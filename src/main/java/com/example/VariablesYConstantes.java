@@ -10,6 +10,8 @@ public class VariablesYConstantes {
 
     public static void demostrarConvencionesNombres() {
         // TODO
+        String NombreJugador = "Juan";
+        int edadJugador = 19;
     }
 
     public static void demostrarConstantes() {
