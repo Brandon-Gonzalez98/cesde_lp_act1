@@ -6,7 +6,7 @@ public class TiposDeDatosPrimitivos {
         byte datos1 = 1;
         short dato2 = 200;
         int dato3 = 300;
-        long dato3 = 3; 
+        long dato4 = 30000L; 
     }
 
     public static void demostrarFlotantes() {
@@ -18,6 +18,8 @@ public class TiposDeDatosPrimitivos {
 
     public static void demostrarCaracteres() {
         // TODO
+        String inicial = B;
+
     }
 
     public static void demostrarBooleanos() {
@@ -26,5 +28,6 @@ public class TiposDeDatosPrimitivos {
 
     public static void demostrarValoresPorDefecto() {
         // TODO
+        int var;
     }
 }
