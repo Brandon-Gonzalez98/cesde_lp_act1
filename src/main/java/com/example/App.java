@@ -2,60 +2,60 @@ package com.example;
 
 public class App {
     public static void main(String[] args) {
-        // 1. Variables y Constantes
-        System.out.println("--- Tema: VariablesYConstantes ---");
-        VariablesYConstantes.demostrarDeclaracionAsignacion();
-        VariablesYConstantes.demostrarConvencionesNombres();
-        VariablesYConstantes.demostrarConstantes();
+        // Variables y Constantes
+        //m.out.println("--- Tema: VariablesYConstantes ---");
+        //blesYConstantes.demostrarDeclaracionAsignacion();
+        //blesYConstantes.demostrarConvencionesNombres();
+        //blesYConstantes.demostrarConstantes();
 
-        // 2. Tipos de Datos Primitivos
-        System.out.println("\n--- Tema: TiposDeDatosPrimitivos ---");
-        TiposDeDatosPrimitivos.demostrarEnteros();
-        TiposDeDatosPrimitivos.demostrarFlotantes();
-        TiposDeDatosPrimitivos.demostrarCaracteres();
-        TiposDeDatosPrimitivos.demostrarBooleanos();
-        TiposDeDatosPrimitivos.demostrarValoresPorDefecto();
+        // Tipos de Datos Primitivos
+        //m.out.println("\n--- Tema: TiposDeDatosPrimitivos ---");
+        //DeDatosPrimitivos.demostrarEnteros();
+        //DeDatosPrimitivos.demostrarFlotantes();
+        //DeDatosPrimitivos.demostrarCaracteres();
+        //DeDatosPrimitivos.demostrarBooleanos();
+        //DeDatosPrimitivos.demostrarValoresPorDefecto();
 
         // 3. Conversión de Tipos
-        System.out.println("\n--- Tema: ConversionDeTipos ---");
-        ConversionDeTipos.demostrarCastingImplicitito();
-        ConversionDeTipos.demostrarCastingExplicito();
-        ConversionDeTipos.demostrarProblemasDePrecision();
-
-        // 4. Operadores
-        System.out.println("\n--- Tema: Operadores ---");
-        Operadores.demostrarAritmeticos();
-        Operadores.demostrarIncrementoDecremento();
-        Operadores.demostrarRelacionales();
-        Operadores.demostrarLogicos();
-        Operadores.demostrarAsignacionCompuesta();
-        Operadores.demostrarOperadorTernario();
+        //System.out.println("\n--- Tema: ConversionDeTipos ---");
+        //ConversionDeTipos.demostrarCastingImplicitito();
+        //ConversionDeTipos.demostrarCastingExplicito();
+        //ConversionDeTipos.demostrarProblemasDePrecision();
+//
+        //// 4. Operadores
+        //System.out.println("\n--- Tema: Operadores ---");
+        //Operadores.demostrarAritmeticos();
+        //Operadores.demostrarIncrementoDecremento();
+        //Operadores.demostrarRelacionales();
+        //Operadores.demostrarLogicos();
+        //Operadores.demostrarAsignacionCompuesta();
+        //Operadores.demostrarOperadorTernario();
 
         // 5. Estructuras Condicionales
-        System.out.println("\n--- Tema: EstructurasCondicionales ---");
-        EstructurasCondicionales.ejemploIf();
-        EstructurasCondicionales.ejemploIfElse();
-        EstructurasCondicionales.ejemploIfElseIfElse();
-        EstructurasCondicionales.ejemploSwitch();
-        EstructurasCondicionales.ejemploSwitchExpression();
+        //System.out.println("\n--- Tema: EstructurasCondicionales ---");
+        //EstructurasCondicionales.ejemploIf();
+        //EstructurasCondicionales.ejemploIfElse();
+        //EstructurasCondicionales.ejemploIfElseIfElse();
+        //EstructurasCondicionales.ejemploSwitch();
+        //EstructurasCondicionales.ejemploSwitchExpression();
 
         // 6. Estructuras de Repetición
         System.out.println("\n--- Tema: EstructurasDeRepeticion ---");
-        EstructurasDeRepeticion.ejemploWhile();
-        EstructurasDeRepeticion.ejemploDoWhile();
-        EstructurasDeRepeticion.ejemploForClasico();
-        EstructurasDeRepeticion.ejemploForAnidado();
-        EstructurasDeRepeticion.ejemploBreakContinue();
-        EstructurasDeRepeticion.ejemploEtiquetas();
+        //EstructurasDeRepeticion.ejemploWhile();
+        //EstructurasDeRepeticion.ejemploDoWhile();
+        //EstructurasDeRepeticion.ejemploForClasico();
+        //EstructurasDeRepeticion.ejemploForAnidado();
+        //EstructurasDeRepeticion.ejemploBreakContinue();
+        //EstructurasDeRepeticion.ejemploEtiquetas();
 
         // 7. Métodos Estáticos Simples
         System.out.println("\n--- Tema: MetodosEstaticosSimples ---");
-        MetodosEstaticosSimples.ejemploDeclaracionLlamada();
-        MetodosEstaticosSimples.ejemploPasoParametros("Estudiante Java");
-        int valorRetornado = MetodosEstaticosSimples.ejemploRetornoValores();
-        System.out.println("Valor retornado: " + valorRetornado);
-        MetodosEstaticosSimples.ejemploSobrecarga();
-        MetodosEstaticosSimples.ejemploSobrecarga(100);
+        //MetodosEstaticosSimples.ejemploDeclaracionLlamada();
+        //MetodosEstaticosSimples.ejemploPasoParametros("Estudiante Java");
+        //int valorRetornado = MetodosEstaticosSimples.ejemploRetornoValores();
+        //System.out.println("Valor retornado: " + valorRetornado);
+        //MetodosEstaticosSimples.ejemploSobrecarga();
+        //MetodosEstaticosSimples.ejemploSobrecarga(100);
 
         // 8. Arreglos Unidimensionales
         System.out.println("\n--- Tema: ArreglosUnidimensionales ---");
@@ -66,26 +66,26 @@ public class App {
         int[] miArray = {5, 10, 15};
         ArreglosUnidimensionales.arrayComoParametroYRetorno(miArray);
 
-        // 9. Arreglos Bidimensionales
-        System.out.println("\n--- Tema: ArreglosBidimensionales ---");
-        ArreglosBidimensionales.declararCrearMatrices();
-        ArreglosBidimensionales.recorrerMatriz();
-        ArreglosBidimensionales.ejemploUsosTipicos();
+//        // 9. Arreglos Bidimensionales
+//        System.out.println("\n--- Tema: ArreglosBidimensionales ---");
+//        ArreglosBidimensionales.declararCrearMatrices();
+//        ArreglosBidimensionales.recorrerMatriz();
+//        ArreglosBidimensionales.ejemploUsosTipicos();
+//
+//        // 10. Manipulación de Cadenas
+//        System.out.println("\n--- Tema: ManipulacionCadenas ---");
+//        ManipulacionCadenas.demostrarConcatenacion();
+//        ManipulacionCadenas.demostrarMetodosUtiles();
+//        ManipulacionCadenas.demostrarInmutabilidad();
+//        ManipulacionCadenas.usarStringBuilder();
 
-        // 10. Manipulación de Cadenas
-        System.out.println("\n--- Tema: ManipulacionCadenas ---");
-        ManipulacionCadenas.demostrarConcatenacion();
-        ManipulacionCadenas.demostrarMetodosUtiles();
-        ManipulacionCadenas.demostrarInmutabilidad();
-        ManipulacionCadenas.usarStringBuilder();
-
-        // 11. Manejo Básico de Excepciones
-        System.out.println("\n--- Tema: ManejoBasicoExcepciones ---");
-        ManejoBasicoExcepciones.ejemploTryCatchDivision();
-        ManejoBasicoExcepciones.ejemploTryCatchInput();
-        ManejoBasicoExcepciones.ejemploBloqueFinally();
-        ManejoBasicoExcepciones.evitarCierrePrograma();
-
+  //      // 11. Manejo Básico de Excepciones
+  //      System.out.println("\n--- Tema: ManejoBasicoExcepciones ---");
+  //      ManejoBasicoExcepciones.ejemploTryCatchDivision();
+  //      ManejoBasicoExcepciones.ejemploTryCatchInput();
+  //      ManejoBasicoExcepciones.ejemploBloqueFinally();
+  //      ManejoBasicoExcepciones.evitarCierrePrograma();
+//
         // 12. Entrada de Datos (Opcional/Comentado para evitar pausas en la calificación)
         /*
         System.out.println("\n--- Tema: EntradaDeDatos ---");
